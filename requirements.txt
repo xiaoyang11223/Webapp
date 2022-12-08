@@ -4,3 +4,4 @@ joblib
 shap
 matplotlib
 catboost
+skimage
