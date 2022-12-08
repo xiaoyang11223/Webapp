@@ -38,7 +38,7 @@ def predict_quality(model, df):
     return y_pred[:, 1]
 
 # 导入模型
-model = joblib.load('https://github.com/xiaoyang11223/Webapp/blob/main/catb.pkl')
+model = joblib.load('catb.pkl')
 st.sidebar.title("Features")
 
 # 设置各项特征的输入范围和选项
